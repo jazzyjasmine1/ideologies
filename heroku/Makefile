@@ -1,7 +1,7 @@
-include .env.dist
--include .env
+include ../.env.dist
+-include ../.env
 
-KEYS_DIR=./keys
+KEYS_DIR=../keys
 
 install:
 	-cp -n .env.dist .env
